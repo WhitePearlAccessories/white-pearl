@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>White Pearl Accessories | Luxury Jewelry</title>
+<meta name="description" content="Elegant necklaces, rings, bracelets, silver and stainless steel jewelry from White Pearl Accessories.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="container nav-inner">
+    <a href="#home" class="logo">White Pearl <span>Accessories</span></a>
+    <nav class="links" id="links" aria-label="Main">
+      <a href="#home">Home</a><a href="#collections">Collections</a><a href="#about">About</a><a href="#reviews">Reviews</a><a href="#faq">FAQ</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" id="cartBtn" aria-label="Open cart">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 7h12l-1 13H7L6 7z"/><path d="M9 7a3 3 0 016 0"/></svg>
+        <span class="badge" id="badge">0</span>
+      </button>
+      <button class="icon-btn burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-content container">
+    <h1>Timeless pieces,<br>worn every day</h1>
+    <p>Necklaces, rings and bracelets in silver and stainless steel, designed to look luxurious and stay bright.</p>
+    <a href="#collections" class="btn btn-gold">Shop the Collection</a>
+  </div>
+</section>
+
+<section class="section" id="categories">
+  <div class="container">
+    <div class="head reveal"><h2>Shop by category</h2><p>Find the piece that fits your style.</p></div>
+    <div class="cat-grid">
+      <button class="cat reveal" data-filter="Necklaces"><img loading="lazy" src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=600&q=80" alt="Necklaces"><span>Necklaces</span></button>
+      <button class="cat reveal" data-filter="Rings"><img loading="lazy" src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=600&q=80" alt="Rings"><span>Rings</span></button>
+      <button class="cat reveal" data-filter="Bracelets"><img loading="lazy" src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=600&q=80" alt="Bracelets"><span>Bracelets</span></button>
+      <button class="cat reveal" data-filter="Silver"><img loading="lazy" src="https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&w=600&q=80" alt="Silver"><span>Silver</span></button>
+      <button class="cat reveal" data-filter="Stainless Steel"><img loading="lazy" src="https://images.unsplash.com/photo-1602173574767-37ac01994b2a?auto=format&fit=crop&w=600&q=80" alt="Stainless Steel"><span>Stainless Steel</span></button>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="collections">
+  <div class="container">
+    <div class="head reveal"><h2>Featured pieces</h2><p>Our most loved designs.</p></div>
+    <div class="filters reveal" id="filters" role="tablist"></div>
+    <div class="grid" id="products"></div>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="container about">
+    <div class="about-img reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=80" alt="Pearl and gold jewelry detail"></div>
+    <div class="reveal">
+      <h2>Made to last, made to shine</h2>
+      <p>Every White Pearl piece is chosen for its finish, its weight in the hand and the way it catches the light. We work with polished silver and durable stainless steel so your jewelry keeps its look through daily wear.</p>
+      <ul class="features">
+        <li><strong>Careful craftsmanship</strong><span>Smooth edges, secure clasps and a clean polished finish.</span></li>
+        <li><strong>Quality materials</strong><span>Silver and stainless steel selected for strength and comfort.</span></li>
+        <li><strong>Tarnish resistance</strong><span>Designed to hold its shine with simple everyday care.</span></li>
+        <li><strong>A luxury experience</strong><span>Every order is presented as a gift, ready to be given.</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section dark" id="reviews">
+  <div class="container">
+    <div class="head reveal"><h2>Loved by our customers</h2><p>Sample testimonials: replace with your real verified reviews.</p></div>
+    <div class="reviews">
+      <figure class="review reveal"><div class="stars">★★★★★</div><blockquote>The necklace is even prettier in person. It looks expensive and I wear it every day without any change in color.</blockquote><figcaption>Verified buyer</figcaption></figure>
+      <figure class="review reveal"><div class="stars">★★★★★</div><blockquote>Beautiful packaging and a ring that feels solid and elegant. It made a perfect gift.</blockquote><figcaption>Verified buyer</figcaption></figure>
+      <figure class="review reveal"><div class="stars">★★★★★</div><blockquote>I wear my bracelet in the shower and at the gym and it still shines. Great quality for the price.</blockquote><figcaption>Verified buyer</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="faq">
+  <div class="container narrow">
+    <div class="head reveal"><h2>Frequently asked questions</h2></div>
+    <div class="acc reveal">
+      <div class="item"><button class="q" aria-expanded="false">How long does shipping take?<i></i></button><div class="a"><p>Shipping times and costs are confirmed at checkout. You will receive a confirmation once your order is on its way.</p></div></div>
+      <div class="item"><button class="q" aria-expanded="false">How do I care for my jewelry?<i></i></button><div class="a"><p>Wipe each piece with a soft dry cloth after wearing, store it in a dry pouch and avoid perfume and harsh chemicals directly on the jewelry.</p></div></div>
+      <div class="item"><button class="q" aria-expanded="false">Will my jewelry tarnish?<i></i></button><div class="a"><p>Our stainless steel pieces are designed for daily wear. Silver can darken over time, which is natural, and a gentle polish restores its shine.</p></div></div>
+      <div class="item"><button class="q" aria-expanded="false">What is your returns policy?<i></i></button><div class="a"><p>If something is not right, contact us and we will help. Please keep the item unworn and in its original packaging.</p></div></div>
+    </div>
+    <p class="faq-note reveal">If you have more specific questions, you can always ask at <a href="mailto:accessorieswhitepearl@gmail.com">accessorieswhitepearl@gmail.com</a>.</p>
+  </div>
+</section>
+
+<section class="section alt" id="instagram">
+  <div class="container">
+    <div class="head reveal"><h2>Follow us on Instagram</h2><p>See how our pieces are styled.</p></div>
+    <div class="insta-grid">
+      <a class="reveal" href="https://www.instagram.com/whitepearlaccessories/?hl=en" target="_blank" rel="noopener"><img loading="lazy" src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=500&q=80" alt="Styled gold necklace"></a>
+      <a class="reveal" href="https://www.instagram.com/whitepearlaccessories/?hl=en" target="_blank" rel="noopener"><img loading="lazy" src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=500&q=80" alt="Styled earrings and rings"></a>
+      <a class="reveal" href="https://www.instagram.com/whitepearlaccessories/?hl=en" target="_blank" rel="noopener"><img loading="lazy" src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=500&q=80" alt="Styled necklace"></a>
+      <a class="reveal" href="https://www.instagram.com/whitepearlaccessories/?hl=en" target="_blank" rel="noopener"><img loading="lazy" src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=500&q=80" alt="Styled bracelet"></a>
+      <a class="reveal" href="https://www.instagram.com/whitepearlaccessories/?hl=en" target="_blank" rel="noopener"><img loading="lazy" src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=500&q=80" alt="Styled ring"></a>
+      <a class="reveal" href="https://www.instagram.com/whitepearlaccessories/?hl=en" target="_blank" rel="noopener"><img loading="lazy" src="https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&w=500&q=80" alt="Styled silver jewelry"></a>
+    </div>
+    <div class="center reveal"><a class="btn btn-gold" href="https://www.instagram.com/whitepearlaccessories/?hl=en" target="_blank" rel="noopener">Follow us on Instagram</a></div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container foot-grid">
+    <div><a href="#home" class="logo">White Pearl <span>Accessories</span></a><p>Elegant jewelry in silver and stainless steel, made for every day.</p></div>
+    <div><h4>Quick links</h4><a href="#collections">Collections</a><a href="#about">About</a><a href="#reviews">Reviews</a><a href="#faq">FAQ</a></div>
+    <div><h4>Contact</h4><a href="mailto:accessorieswhitepearl@gmail.com">accessorieswhitepearl@gmail.com</a><a href="https://www.instagram.com/whitepearlaccessories/?hl=en" target="_blank" rel="noopener">Instagram</a></div>
+    <div><h4>Newsletter</h4><form id="news"><input type="email" placeholder="Your email" required aria-label="Email address"><button class="btn btn-gold" type="submit">Subscribe</button></form><p class="msg" id="newsMsg" aria-live="polite"></p></div>
+  </div>
+  <div class="container copy">© <span id="year"></span> White Pearl Accessories. All rights reserved.</div>
+</footer>
+
+<div class="overlay" id="overlay"></div>
+<aside class="drawer" id="drawer" aria-label="Shopping cart" aria-hidden="true">
+  <div class="drawer-head"><h3>Your cart</h3><button class="icon-btn" id="closeCart" aria-label="Close cart">✕</button></div>
+  <div class="drawer-body" id="cartItems"></div>
+  <div class="drawer-foot">
+    <div class="total"><span>Subtotal</span><strong id="subtotal">$0.00</strong></div>
+    <button class="btn btn-gold full" id="checkout">Checkout</button>
+    <p class="msg" id="cartMsg" aria-live="polite"></p>
+  </div>
+</aside>
+
+<script src="script.js"></script>
+</body>
+</html>
